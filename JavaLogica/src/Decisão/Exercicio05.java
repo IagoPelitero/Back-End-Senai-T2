@@ -1,5 +1,6 @@
 package Decisão;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exercicio05 {
@@ -13,20 +14,23 @@ public class Exercicio05 {
 		System.out.println("Informe sua altura: ");
 		alt=ler.nextFloat();
 		imc=peso/(alt*alt);
+		DecimalFormat formato = new DecimalFormat("#.##");
+		String imcformatado = formato.format(imc);
+		
 		if(imc<17)
-			System.out.println("Muito abaixo do peso!");
+			System.out.println("Seu IMC e: "+imcformatado+" Muito abaixo do peso!");
 		else if(imc>17 && imc<18.5)
-			System.out.println("Abaixo do peso");
+			System.out.println("Seu IMC e: "+imcformatado+" Abaixo do peso");
 		else if(imc>18.5 && imc<25)
-			System.out.println("Peso ideal!");
+			System.out.println("Seu IMC e: "+imcformatado+" Peso ideal!");
 		else if(imc>25 && imc<30)
-			System.out.println("Acima do peso");
+			System.out.println("Seu IMC e: "+imcformatado+" Acima do peso");
 		else if(imc>30 && imc<35)
-			System.out.println("Muito acima do peso");
+			System.out.println("Seu IMC e: "+imcformatado+" Muito acima do peso");
 		else if(imc>35 && imc<40)
-			System.out.println("Cuidado!Obesidade severa!");
+			System.out.println("Seu IMC e: "+imcformatado+" Cuidado!Obesidade severa!");
 		else
-			System.out.println("Atenção! Obesidade mórbida!");
+			System.out.println("Seu IMC e: "+imcformatado+" Atenção! Obesidade mórbida!");
 	}
 
 }
