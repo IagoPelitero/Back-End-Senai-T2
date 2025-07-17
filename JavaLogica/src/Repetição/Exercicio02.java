@@ -9,7 +9,7 @@ public class Exercicio02 {
 		int numTab;
 		System.out.println("Digite um número: ");
 		numTab=ler.nextInt();
-		for(int tab=0; tab<=10; tab++)
+		for(int tab=1; tab<=10; tab++)
 			System.out.println(numTab+"x"+tab+"="+numTab*tab);
 	}
 
