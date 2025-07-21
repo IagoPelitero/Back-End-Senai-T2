@@ -31,3 +31,7 @@ do{
 
 2 - Faça um programa onde o usuário entre com um número e o programa mostre se é um número par ou ímpar, em seguida o programa deverá perguntar se o usuário repetir o processo.
 
+3 - Faça um programa em que o usuário entre com um número de elementos que deseja que o programa mostre a sequência Fibonacci. (1,1,2,3,5,8,13,21...), em seguida o programa deverá perguntar se o usuário deseja repetir o processo.
+
+4 - Faça um programa onde o usuário escolha a tabuada de inicio e faça até a tabuada do 9, em seguida o programa deverá perguntar se o usuário deseja repertir o processo.
+

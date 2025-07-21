@@ -34,7 +34,7 @@ public class ExercicioDoWhile01 {
 			default:
 				System.out.println("Opção inválida!");
 			}
-			System.out.println("Digite 0 para sair: ");
+			System.out.println("Digite 0 para sair ou 1 para continuar: ");
 			resp=ler.nextDouble();
 
 	} while (resp!=0);
