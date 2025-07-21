@@ -2,7 +2,7 @@ package Repetição;
 
 import java.util.Scanner;
 
-public class ExemploDoWhile01 {
+public class ExercicioDoWhile02 {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner (System.in);
