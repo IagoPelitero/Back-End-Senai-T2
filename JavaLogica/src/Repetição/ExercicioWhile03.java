@@ -21,6 +21,7 @@ public class ExercicioWhile03 {
 				atual=proximo;
 			}
 			System.out.println("Pressione -1 para repetir: ");
+			resp=ler.nextInt();
 		}
 	}
 }
