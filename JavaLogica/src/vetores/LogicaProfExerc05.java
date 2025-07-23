@@ -32,7 +32,7 @@ public class LogicaProfExerc05 {
 		for(int n=0;n<10;n++)
 			System.out.println(pa[n]+"\t");
 		System.out.println("\nValores do vetor PG: ");
-		for(int n0;n<10;n++)
+		for(int n=0;n<10;n++)
 			System.out.println(pg[n]+"\t");
 
 	}
