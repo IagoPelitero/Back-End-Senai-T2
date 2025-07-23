@@ -21,6 +21,10 @@ public class ExercicioVetor04 {
 		for(int n3=0; n3<10; n3++)
 			soma[n3]= vet1[n3]+vet2[n3];
 		
+		System.out.println("A primeira sequência de números são: "+Arrays.toString(vet1));
+		
+		System.out.println("A segunda sequência de números são: "+Arrays.toString(vet2));
+		
 		System.out.println("A soma dos números são: "+Arrays.toString(soma));
 }
 	}

@@ -15,7 +15,6 @@ public class Exercicio05 {
 		fim=ler.nextInt();
 		for (int calc=num; calc<=fim; calc+=raz)
 			System.out.println("A progressão Aritmética do "+num+" é: "+calc);
-
 	}
 
 }
