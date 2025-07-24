@@ -15,7 +15,6 @@ public class ExercicioMatriz01 {
 					System.out.println("Digite o valor para a linha "+l+" coluna "+c);
 					mat[l][c]=ler.nextInt();
 					mult*=mat[l][c];
-					//soma=soma+mat[l][c]; outro método de soma
 				}
 			}
 				for(l=0;l<3;l++)
