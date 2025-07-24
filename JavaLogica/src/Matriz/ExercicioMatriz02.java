@@ -27,7 +27,7 @@ public class ExercicioMatriz02 {
 			{
 				for(c=0;c<4;c++)
 				{
-					System.out.println(soma[l][c]+"\t");
+					System.out.print(soma[l][c]+"\t");
 				}
 
 				System.out.println();

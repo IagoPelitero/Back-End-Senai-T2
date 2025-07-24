@@ -21,10 +21,10 @@ public class ExercicioMatriz01 {
 				{
 					for(c=0;c<4;c++)
 					{
-						System.out.println(mat[l][c]+"\t");
+						System.out.print(mat[l][c]+"\t");
 					}
 					System.out.println();
 				}
-				System.out.println("A multiplicação dos valores da matriz é: "+mult);
+				
 			}
 		}

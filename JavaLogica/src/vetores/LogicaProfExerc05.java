@@ -34,7 +34,9 @@ public class LogicaProfExerc05 {
 		System.out.println("\nValores do vetor PG: ");
 		for(int n=0;n<10;n++)
 			System.out.println(pg[n]+"\t");
-
+		System.out.println("\nValores do vetor de fibonacci: ");
+		for(int n=0;n<10;n++)
+			System.out.println(fi[n]+"\t");
 	}
 
 }
