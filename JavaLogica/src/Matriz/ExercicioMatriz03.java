@@ -32,11 +32,12 @@ public class ExercicioMatriz03 {
 			for(int x=1;x<10;x++) {
 				fipapg[2][x] = fipapg[2][x - 1] * raz;
 			}
-		for(l=0;l<3;l++)
+		for(l=0;l<3;l++) {
 			for(c=0;c<10;c++) {
 				System.out.print(fipapg[l][c]+"\t");
 			}
 		System.out.println();
+		}
 		}
 
 	}
