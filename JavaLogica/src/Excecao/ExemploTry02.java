@@ -1,3 +1,4 @@
+
 package Excecao;
 
 import java.util.InputMismatchException;
