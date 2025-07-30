@@ -4,8 +4,16 @@ public class Caneta {
 	//CARACTERÍSTICAS => ATRIBUTOS
 	String cor;
 	int carga;
-	float ponta;
+	double ponta;
 	boolean tampada;
+	
+	//METODO CONSTRUTOR
+	public Caneta(String cor, double ponta) {
+		this.ponta=ponta;
+		this.cor=cor;
+		this.tampada=true;
+		this.carga=100;
+	}
 	
 	//COMPORTAMENTOS => MÉTODOS
 	public void tampar() {
