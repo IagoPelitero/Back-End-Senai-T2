@@ -15,9 +15,11 @@ public class ExcercicioPOOCarro {
 		System.out.println("Digite a cor desejada: ");
 		String z=ler.next();
 		Carro car = new Carro(x,y,z);
-		
+		car.setAno(2001);
 		car.ligar();
 		car.acelerar();
+		System.out.println("O carro está ligado? "+car.isLigado());
+		System.out.println("A velocidade atual é: "+car.getVelocidade());
 		car.estado();
 	}
 
