@@ -2,6 +2,8 @@ package Introducao;
 
 import java.util.Scanner;
 
+import Teste.Carro;
+
 public class ExcercicioPOOCarro {
 
 	public static void main(String[] args) {
@@ -17,15 +19,6 @@ public class ExcercicioPOOCarro {
 		car.ligar();
 		car.acelerar();
 		car.estado();
-		
-		
-		
-		
-		
-		
-		
-		
-
 	}
 
 }
