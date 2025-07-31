@@ -1,12 +1,12 @@
-package Introducao;
+package Teste;
 
 public class Carro {
-	String marca;
-	String modelo; 
-	String cor;
-	int ano; 
-	int velocidade; 
-	boolean ligado;
+	private String marca;
+	private String modelo; 
+	private String cor;
+	private int ano; 
+	private int velocidade; 
+	private boolean ligado;
 	
 	public Carro(String marca, String modelo, String cor) {
 		this.ano=2025;
@@ -42,6 +42,8 @@ public class Carro {
 		}else
 			System.out.println("Verifique se o carro está parado ou desligado");
 	}
+	
+	
 	public void estado() {
 		System.out.println("Marca: "+this.marca);
 		System.out.println("Modelo: "+this.modelo);
@@ -50,4 +52,24 @@ public class Carro {
 		System.out.println("O carro está ligado? "+this.ligado);
 		System.out.println("A velocdade do carro esta em "+this.velocidade+" km/h");
 	}
+
+	
+	//MÉTODOS ACESSORES E MODIFICADORES
+	public String getMarca() {
+		return marca;
+	}
+	
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+	
+	public int getAno() {
+		return ano;
+	}
+	
+	public void setAno(int ano) {
+		this.ano = ano;
+	}
+	
+	
 }
