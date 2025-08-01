@@ -9,10 +9,10 @@ public class ContaBancaria {
 		return numeroConta;
 	}
 	public void setNumeroConta(int numeroConta) {
-		if(numeroConta>6) {
-		System.out.println("Conta com mais de 6 dígitos.");
-	} else {
+		if(numeroConta >= 0 && numeroConta <= 999999) {
 		this.numeroConta=numeroConta;
+	} else {
+		System.out.println("Erro! Conta com mais de 6 dígitos.");
 	}
 	}
 	public String getTitular() {
@@ -22,7 +22,7 @@ public class ContaBancaria {
 		return saldo;
 	}
 	public void setSaldo(double saldo) {
-		if(saldo<6) {
+		if(saldo<0) {
 			System.out.println("Erro! Sem saldo.");
 		}else
 		this.saldo = saldo;
