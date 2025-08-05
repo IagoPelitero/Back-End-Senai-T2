@@ -35,13 +35,16 @@ public class ProfRelogio implements ProfInterfaceRelogio{
 	}
 	@Override
 	public void trocaHora(int hora) {
-		// TODO Auto-generated method stub
+		this.hora=hora;
 		
 	}
 	@Override
 	public void trocaMinuto(int minuto) {
-		// TODO Auto-generated method stub
+		this.minuto=minuto;
 		
+	}
+	public boolean isLigado() {
+		return ligado;
 	}
 	
 
