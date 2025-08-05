@@ -54,3 +54,7 @@ Interface
 Lista de serviços fornecidos por um componente. É o contato com o mundo exterior. É formada apenas por métodos, geralmente abstratos.
 
 Não possui atritutos apenas métodos. É padronizado e tem todos os métodos que as classes precisam ter.
+
+## Exercicio
+
+Criar um objeto chamado `Relógio` e realizar o encapsulamento criando a interface

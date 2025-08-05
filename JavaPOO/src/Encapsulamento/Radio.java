@@ -44,6 +44,15 @@ public class Radio implements InterfaceRadio{
 		this.estacao=estacao;
 		
 	}
+	public int getVolume() {
+		return volume;
+	}
+	public boolean isLigado() {
+		return ligado;
+	}
+	public double getEstacao() {
+		return estacao;
+	}
 	
 	
 
