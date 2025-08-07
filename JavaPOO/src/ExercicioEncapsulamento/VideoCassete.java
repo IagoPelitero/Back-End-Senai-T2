@@ -29,7 +29,7 @@ public class VideoCassete implements InterVideoCassete{
 
 	@Override
 	public void play() {
-		if(this.ligado==true) {
+		if(this.ligado==true && this.start==false) {
 			this.start=true;
 		}else
 			System.out.println("O video está parado ou desligado...");
@@ -38,7 +38,7 @@ public class VideoCassete implements InterVideoCassete{
 
 	@Override
 	public void rebobinar() {
-		if(this.ligado==true && this.start==true) {
+		if(this.ligado==true && this.start==true && this.fita>0) {
 			this.fita-=5;
 		}else
 			System.out.println("Fita totalmente rebobinada...");
@@ -47,7 +47,7 @@ public class VideoCassete implements InterVideoCassete{
 
 	@Override
 	public void avancar() {
-		if(this.ligado==true && this.start==true) {
+		if(this.ligado==true && this.start==true && this.fita<100) {
 			this.fita+=5;
 		}else
 			System.out.println("Fita já concluída...");
