@@ -46,3 +46,19 @@ ContaBancaria cb/*referência*/ = new/*instancia do obejto*/ ContaBancaria(qualq
 
 cb.ligar(); /*solicita que execute a ação criada no método do obejto*/
 ~~~
+
+11 - O que são modificadores de acesso?
+R: São usados para limitar ou seja, quem pode acessar aquele código ou atributo.
+
+12 - Quais são os modificadroes de acesso?
+R: Package, Public, Private, Protect.
+
+13 - Explique cada um dos modificadores de acesso.
+R: Package: limita que a classe seja acessada apenas dentro do mesmo pacote, Public: Qualquer classe ou pacote pode acessar, Private: apenas a classe em que foi criado tem acesso (evita que algum dev modifique indevidamente), Protect: Apenas o pacote, classe ou subclasses tenha acesso.
+
+14 - O que são métodos acessores e como funcionam?
+São métodos getters que retornam a solicitação de mesmo atritbuto. 
+
+15 - O que são os métodos modificadores e como funcionam?
+São métodos que subescrevem uma instrução e sempre vai receber um parâmetro do mesmo tipo do atributo.
+
