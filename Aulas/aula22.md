@@ -59,6 +59,38 @@ R: Package: limita que a classe seja acessada apenas dentro do mesmo pacote, Pub
 14 - O que são métodos acessores e como funcionam?
 São métodos getters que retornam a solicitação de mesmo atritbuto. 
 
+~~~Java
+qualquerCoisa.getMetodo();
+~~~
+
 15 - O que são os métodos modificadores e como funcionam?
 São métodos que subescrevem uma instrução e sempre vai receber um parâmetro do mesmo tipo do atributo.
 
+~~~Java
+qualquerCoisa.setMetodo(variável ou instrução);
+~~~
+
+16 - O que é uma interface?
+Lista de serviços fornecidos por um componente. É o contato com o mundo exterior. É formada apenas por métodos, geralmente abstratos. Nela criamos apenas métodos geralmente abstratos para serem usados em mais de uma classe se preciso.
+
+17 - O que devemos fazer para implementar uma interface?
+R: Primeiro criamos um arquivo interface e atribuimos um nome.
+Segundo incluímos quais métodos deverão conter na interface.
+
+Exemplo de interface:
+
+~~~Java
+public interface qualquerCoisa {
+	public abstract void qualquerCoisa();
+	public abstract void outraCoisa();
+}
+~~~
+
+18 - Quais são os tipos de polimorfismo que existem?
+Sobreposição e sobrecarga
+
+19 - Explique o polimorfismo de sobrecarga.
+R: Quando uma mesma classe possui mais de um método com o mesmo nome, mas com parâmetros diferentes.
+
+20 - Explique o polimorfismo de sobreposição.
+R: Quando tem dois métodos do mesmo tipo com o mesmo valor com a mesma assinatura, só que em classes diferentes.
