@@ -19,3 +19,5 @@ Caminho ao contrário é generalização.
 - Organização do programa;
 - Facilita manutenção;
 - Facilita atendimento
+
+Quando utilizamos o ´Protected´ nos atributos somente classes mães e filhas podem usar.
