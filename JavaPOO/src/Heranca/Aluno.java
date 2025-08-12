@@ -14,5 +14,7 @@ public class Aluno extends Pessoa{
 		System.out.println("O endereco do aluno e: "+this.endereco);
 		System.out.println("O telefone do aluno e: "+this.tel);
 		System.out.println("A idade da pessoa do aluno e: "+this.idade+" anos");
+		System.out.println("O ra do aluno e: "+this.ra);
+		System.out.println("O aluno esta no cruso de: "+this.curso);
 	}
 }
