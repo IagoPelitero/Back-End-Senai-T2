@@ -5,15 +5,12 @@
 Repositório dedicado às **anotações**, **exercícios** e **projetos** desenvolvidos durante o curso de **Backend no Senai**.
 
 **Carga horária total:** 160 horas  
-**Aulas previstas:** 2
+**Aulas previstas:** 40
 ---
 
 ## 📚 Sobre o Curso
 
 Curso de **Back-End** oferecido pelo **Senai-SP**, com foco em desenvolvimento de aplicações utilizando **Java** como linguagem principal.
-
-**Carga horária total:** 160 horas  
-**Aulas previstas:** 40
 
 ---
 
@@ -28,14 +25,14 @@ Curso de **Back-End** oferecido pelo **Senai-SP**, com foco em desenvolvimento d
 
 ---
 
-## 📘 Conteúdo Programático
+## 📘 Conteúdo 
 
 Durante o curso, os seguintes tópicos foram abordados:
 
 - 🧠 Lógica de programação
 - 💻 Linguagem de programação Java
 - 🧱 Programação Orientada a Objetos (POO)
-- 🗃️ Banco de dados (modelagem e SQL)
+- 🗃️ Banco de dados (apenas conceito) (modelagem e SQL)
 - 🔧 Desenvolvimento de aplicações Back-End
 
 ---
@@ -96,12 +93,11 @@ Durante o curso, os seguintes tópicos foram abordados:
 
 | Nº da Aula | Tema                                                   | Status        | Link       |
 |------------|--------------------------------------------------------|---------------|------------|
-| 01         | Aulas/Anotações e dicas                                | 🟡 Em andamento | [Anotações](#) |
-| 02         | Java Lógica                                            | ✅ Concluído    | [Anotações](#) |
-| 03         | Java Lógica                                            | ✅ Concluído    | [Anotações](#) |
-| 04         | POO                                                    | ✅ Concluído    | [Anotações](#) |
-| 05         | Projeto Pessoal / Projeto Final                        | 🟡 Em andamento | [Anotações](#) |
-| 06         | Projeto E-commerce / Teste de Conhecimento             | 🟡 Em andamento | [Anotações](#) |
+| 01  - 40       | Aulas/Anotações e dicas                                | 🟡 Em andamento | [Anotações](#) |
+| 01 - 13         | Java Lógica                                            | ✅ Concluído    | [Anotações](#) |                                          
+| 14 - 26       | POO                                                    | ✅ Concluído    | [Anotações](#) |
+| 26 - 40        | Projeto Blog pessoal / Projeto Final                        | 🟡 Em andamento | [Anotações](#) |
+| 29 - 40      | Projeto E-commerce / Teste de Conhecimento             | 🟡 Em andamento | [Anotações](#) |
 
 ---
 
@@ -117,10 +113,10 @@ Durante o curso, os seguintes tópicos foram abordados:
 ## 🏆 Projetos em Destaque
 
 ### 🛒 eCommerce
-Sistema de eCommerce desenvolvido em Java, aplicando conceitos de **POO**, **segurança**, e **persistência de dados**.
+Sistema de eCommerce desenvolvido em Java, aplicando conceitos de **POO** e utilização do **spring boot**
 
 ### 📝 Blog Pessoal
-Sistema de blog pessoal com funcionalidades CRUD, desenvolvido com **Java**, utilizando **Spring Boot** e boas práticas de segurança.
+Sistema de blog pessoal com funcionalidades CRUD, desenvolvido com **Java** e utilizando **Spring Boot**
 
 ---
 
@@ -134,7 +130,7 @@ Estou documentando cada passo para **compartilhar conhecimento** e acompanhar mi
 ## 📬 Contato
 
 - GitHub: [@IagoPelitero](https://github.com/IagoPelitero)
-- LinkedIn: [IagoPelitero](https://www.linkedin.com/in/iagopelitero)
+- LinkedIn: [linkedin.com/in/iagopelitero](https://www.linkedin.com/in/iagopelitero)
 
 > _“A jornada de mil milhas começa com um único passo.”_ – Lao Tzu
 
