@@ -10,4 +10,5 @@ import SENAI.Ipiranga.com.blogPessoal.Model.Postagem;
 @Repository
 public interface PostagemRepository extends JpaRepository<Postagem,Long>{
 	public List<Postagem> findByTituloContainingIgnoreCase(String Titulo);
+	public List<Postagem> findAll();
 }
