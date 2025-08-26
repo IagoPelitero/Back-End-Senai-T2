@@ -5,7 +5,6 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import SENAI.Ipiranga.com.blogPessoal.Model.Postagem;
 import SENAI.Ipiranga.com.blogPessoal.Model.Tema;
 
 @Repository
