@@ -93,11 +93,11 @@ Durante o curso, os seguintes tópicos foram abordados:
 
 | Nº da Aula | Tema                                                   | Status        | Link       |
 |------------|--------------------------------------------------------|---------------|------------|
-| 01  - 40       | Aulas/Anotações e dicas                                | 🟡 Em andamento | [Anotações](#) |
-| 01 - 13         | Java Lógica                                            | ✅ Concluído    | [Anotações](#) |                                          
-| 14 - 26       | POO                                                    | ✅ Concluído    | [Anotações](#) |
-| 26 - 40        | Projeto Blog pessoal / Projeto Final                        | 🟡 Em andamento | [Anotações](#) |
-| 29 - 40      | Projeto E-commerce / Teste de Conhecimento             | 🟡 Em andamento | [Anotações](#) |
+| 01  - 40       | Aulas/Anotações e dicas                                | 🟡 Em andamento | [Anotações das aulas](https://github.com/IagoPelitero/Back-End-Senai-T2/tree/main/Aulas) |
+| 01 - 13         | Java Lógica                                            | ✅ Concluído    | [Exemplos e exercícios](https://github.com/IagoPelitero/Back-End-Senai-T2/tree/main/JavaLogica) |                                          
+| 14 - 26       | POO                                                    | ✅ Concluído    | [Exemplos e exercícios](https://github.com/IagoPelitero/Back-End-Senai-T2/tree/main/JavaPOO) |
+| 26 - 40        | Projeto Blog pessoal / Projeto Final                        | 🟡 Em andamento | [Feito com o professor](https://github.com/IagoPelitero/Back-End-Senai-T2/tree/main/blogPessoal/blogPessoal) |
+| 29 - 40      | Projeto E-commerce / Teste de Conhecimento             | 🟡 Em andamento | [Teste de Conhecimento](https://github.com/IagoPelitero/Back-End-Senai-T2/tree/main/ProjetoJavaPessoal/eCommerce) |
 
 ---
 
