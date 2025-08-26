@@ -114,9 +114,11 @@ Durante o curso, os seguintes tópicos foram abordados:
 
 ### 🛒 eCommerce
 Sistema de eCommerce desenvolvido em Java, aplicando conceitos de **POO** e utilização do **spring boot**
+🟡**Em desenvolvimento**
 
 ### 📝 Blog Pessoal
 Sistema de blog pessoal com funcionalidades CRUD, desenvolvido com **Java** e utilizando **Spring Boot**
+🟡**Em desenvolvimento**
 
 ---
 
