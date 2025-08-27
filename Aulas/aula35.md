@@ -1,0 +1,3 @@
+# Continuação...
+
+`<Optional<Class>>` -> Ele não cracha o programa e traz apenas o id correspondente ao invés de uma lista.
