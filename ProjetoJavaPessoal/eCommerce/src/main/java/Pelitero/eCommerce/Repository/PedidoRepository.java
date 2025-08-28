@@ -11,9 +11,9 @@ import Pelitero.eCommerce.Model.Pedido;
 
 public interface PedidoRepository extends JpaRepository<Pedido, Long>{
 	
-	public List<Pedido> findByAllNItens(long nItens);
-	public List<Pedido> findByAllQItens(int qItens);
-	public List<Pedido> findByAllVFinal(double vFinal);
+	public List<Pedido> findByNItens(long nItens);
+	public List<Pedido> findByQItens(int qItens);
+	public List<Pedido> findByVFinal(double vFinal);
 	public List<Pedido> findById(long id);
 	public List<Pedido> findAll();
 

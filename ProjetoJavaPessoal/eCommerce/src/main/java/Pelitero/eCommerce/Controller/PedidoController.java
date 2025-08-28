@@ -28,18 +28,18 @@ public class PedidoController {
 	}
 	
 	@GetMapping("/nitens/{nitens}") 
-	public ResponseEntity<List<Pedido>> getAllNItens(long nItens){
-		return ResponseEntity.ok(repository.findByAllNItens(nItens));
+	public ResponseEntity<List<Pedido>> getByNItens(long nItens){
+		return ResponseEntity.ok(repository.findByNItens(nItens));
 	}
 
 	@GetMapping("/qitens/{qitens}") 
-	public ResponseEntity<List<Pedido>> getAllQItens(int qItens){
-		return ResponseEntity.ok(repository.findByAllQItens(qItens));
+	public ResponseEntity<List<Pedido>> getByQItens(int qItens){
+		return ResponseEntity.ok(repository.findByQItens(qItens));
 	}
 	
 	@GetMapping("/vfinal/{vfinal}") 
-	public ResponseEntity<List<Pedido>> getAllVFinal(double vFinal){
-		return ResponseEntity.ok(repository.findByAllVFinal(vFinal));
+	public ResponseEntity<List<Pedido>> getByVFinal(double vFinal){
+		return ResponseEntity.ok(repository.findByVFinal(vFinal));
 	}
 	
 	@GetMapping("/id/{id}")
