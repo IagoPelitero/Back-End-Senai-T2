@@ -21,10 +21,6 @@ public class Produto {
 	private double quantidade;
 	private String categoria;
 	private double vUnitario;
-
-	@ManyToOne
-	@JsonIgnoreProperties("produto")
-	private Pedido pedido;
 	
 	@ManyToOne
 	@JsonIgnoreProperties("produto")
@@ -68,14 +64,6 @@ public class Produto {
 
 	public void setCategoria(String categoria) {
 		this.categoria = categoria;
-	}
-
-	public Pedido getPedido() {
-		return pedido;
-	}
-
-	public void setPedido(Pedido pedido) {
-		this.pedido = pedido;
 	}
 
 	public Cliente getCliente() {
