@@ -80,8 +80,8 @@ Durante o curso, os seguintes tópicos foram abordados:
 | 34   | 🟩     |
 | 35   | 🟩     |
 | 36   | 🟩     |
-| 37   | ⬜     |
-| 38   | ⬜     |
+| 37   | 🟩     |
+| 38   | 🟩     |
 | 39   | ⬜     |
 | 40   | ⬜     |
 
